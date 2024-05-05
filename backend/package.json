@@ -1,0 +1,20 @@
+{
+  "name": "stavmia_backend",
+  "version": "1.0.0",
+  "description": "agro tech api ",
+  "main": "server.js",
+  "author": "Irobuisi Chibuzor",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  }
+}
